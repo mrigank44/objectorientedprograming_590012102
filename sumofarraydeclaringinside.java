@@ -1,19 +1,21 @@
 import java.util.Scanner;
+
 public class sumofarraydeclaringinside {
- 
-    public static void main(String[] args){
-           int sum=0,n=0,arr[] = new int[5];
+
+    public static void main(String[] args) {
+
+        int sum = 0;
+        int arr[] = new int[5];
+
         Scanner s = new Scanner(System.in);
-        sumofarraydeclaringinside obj = new sumofarraydeclaringinside();
+
         System.out.println("enter 5 numbers");
-        for(int i=0;i<5;i++){
-            obj.arr[i]=s.nextInt();
-            obj.sum += obj.arr[i];
+
+        for (int i = 0; i < 5; i++) {
+            arr[i] = s.nextInt();
+            sum += arr[i];
         }
-        System.out.println("sum" +obj.sum);
+
+        System.out.println("sum " + sum);
     }
-
-
-
-
 }
