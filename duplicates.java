@@ -21,7 +21,7 @@ public class duplicates {
             for (int j = i + 1; j < n; j++) {
                 if (arr[i] == arr[j]) {
                     count++;
-                    break;   // no need to check further
+                    break; 
                 }
             }
         }
