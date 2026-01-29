@@ -8,7 +8,7 @@ public class constructornonpara{
         Scanner sc = new Scanner(System.in);
         Car c = new Car();
         System.out.println("enetr the number for the car");
-        c.n = sc.nextInt(5);
+        c.n = sc.nextInt();
         System.out.println("the entered number is " +c.n);
     }
 }
